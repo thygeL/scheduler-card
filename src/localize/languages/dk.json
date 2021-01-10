@@ -1,0 +1,130 @@
+{
+  "services": {
+    "generic": {
+      "parameter_to_value": "{parameter} til {value}",
+      "action_with_parameter": "{action} med {parameter}"
+    },
+    "climate": {
+      "set_temperature": "sæt temperatur[ til {temperature}]",
+      "set_temperature_hvac_mode_heat": "varme[ til {temperature}]",
+      "set_temperature_hvac_mode_cool": "køl[ til {temperature}]",
+      "set_hvac_mode": "sæt mode[ til {hvac_mode}]",
+      "set_preset_mode": "sæt preset[ til {preset_mode}]"
+    },
+    "cover": {
+      "close_cover": "luk",
+      "open_cover": "åbn",
+      "set_cover_position": "set position[ til {position}]"
+    },
+    "fan": {
+      "set_speed": "sæt hastighed[ til {speed}]",
+      "set_direction": "sæt retning[ til {direction}]",
+      "oscillate": "sæt oscillation[ til {oscillate}]"
+    },
+    "humidifier": {
+      "set_humidity": "sæt fugtighed[ til {humidity}]"
+    },
+    "input_number": {
+      "set_value": "sæt værdi[ til {value}]"
+    },
+    "input_select": {
+      "select_option": "vælg option[ {option}]"
+    },
+    "light": {
+      "turn_on": "Tænd[ med {brightness} brightness]"
+    },
+    "media_player": {
+      "select_source": "vælg kilde[ {source}]"
+    },
+    "script": {
+      "script": "udføre"
+    },
+    "vacuum": {
+      "start_pause": "start / pause"
+    },
+    "water_heater": {
+      "set_away_mode": "sæt ikke hjemme tilstand"
+    }
+  },
+  "domains": {
+    "alarm_control_panel": "alarm kontrol panel",
+    "climate": "klima",
+    "cover": "gardiner",
+    "fan": "ventilatore",
+    "group": "enhedsgrupper",
+    "humidifier": "affugtere",
+    "input_boolean": "input boolean",
+    "input_number": "input number",
+    "input_select": "input select",
+    "light": "lys",
+    "lock": "låse",
+    "media_player": "media afspillere",
+    "scene": "scenes",
+    "script": "scripts",
+    "switch": "switches",
+    "vacuum": "støvsugere",
+    "water_heater": "vand varmere"
+  },
+  "ui": {
+    "components": {
+      "date": {
+        "day_types_short": {
+          "daily": "dagligt",
+          "workdays": "hverdage",
+          "weekend": "weekend"
+        },
+        "day_types_long": {
+          "daily": "hver dag",
+          "workdays": "på hverdage",
+          "weekend": "i week-enden"
+        },
+        "days": "dage",
+        "tomorrow": "imorgen",
+        "repeated_days": "hver dag {days}",
+        "repeated_days_except": "hver dag undtagen {excludedDays}",
+        "days_range": "fra {startDay} til {endDay}"
+      },
+      "time": {
+        "absolute": "ved {time}",
+        "interval": "fra {startTime} til {endTime}",
+        "at_midnight": "ved midnat",
+        "at_noon": "ved middagstid",
+        "at_sun_event": "ved {sunEvent}"
+      }
+    },
+    "panel": {
+      "common": {
+        "title": "Scheduler"
+      },
+      "overview": {
+        "no_entries": "Der er ikke nogle emner at vise",
+        "backend_error": "Kunne ikke forbinde med scheduler komponenten. Denne skal installeres som integration før dette Kort kan bruges.",
+        "excluded_items": "{number} udelukket {if number is 1} emne {else} emner",
+        "hide_excluded": "skjul udlukkede emner",
+        "additional_tasks": "{number} mere {if number is 1} opgave {else} opgaver"
+      },
+      "entity_picker": {
+        "no_groups_defined": "Der er ingen grupper defineret",
+        "no_group_selected": "Vælge en gruppe først",
+        "no_entities_for_group": "Der er ingen enheder i denne gruppe",
+        "no_entity_selected": "Vælge en enhed først",
+        "no_actions_for_entity": "Der er ingen handlinger for denne enhed",
+        "make_scheme": "Opret scene",
+        "multiple": "Flere"
+      },
+      "time_picker": {
+        "no_timeslot_selected": "Vælge et tidsintervalg først"
+      },
+      "conditions": {
+        "equal_to": "er",
+        "unequal_to": "er ikke",
+        "all": "alle",
+        "any": "vilkårlig",
+        "no_conditions_defined": "Der er ingen betingelser defineret"
+      },
+      "options": {
+        "repeat_type": "Adfærd efter opgaveg"
+      }
+    }
+  }
+}
